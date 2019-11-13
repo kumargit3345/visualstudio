@@ -10,6 +10,7 @@ namespace Bookstore.Controllers
 {
 	public class HomeController : Controller
 	{
+        //home
 		public IActionResult Index()
 		{
 			return View();
