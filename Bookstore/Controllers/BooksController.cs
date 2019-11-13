@@ -21,7 +21,7 @@ namespace Bookstore.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-            //async changes1 feature branch
+            //async changes1 feature branch to test git commit
             return View(await _context.Book.ToListAsync());
         }
 
