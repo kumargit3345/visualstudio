@@ -21,7 +21,7 @@ namespace Bookstore.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
-            //async changes
+            //async changes1
             return View(await _context.Book.ToListAsync());
         }
 
