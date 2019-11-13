@@ -25,7 +25,7 @@ namespace Bookstore.Controllers
             return View(await _context.Book.ToListAsync());
         }
 
-        // GET: Books/Details/5
+        // GET: Books/Details/55
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
