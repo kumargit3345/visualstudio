@@ -12,7 +12,7 @@ namespace Bookstore.Controllers
     public class BooksController : Controller
     {
         private readonly BookstoreContext _context;
-
+        //add comment
         public BooksController(BookstoreContext context)
         {
             _context = context;
@@ -21,6 +21,7 @@ namespace Bookstore.Controllers
         // GET: Books
         public async Task<IActionResult> Index()
         {
+            //async changes
             return View(await _context.Book.ToListAsync());
         }
 
